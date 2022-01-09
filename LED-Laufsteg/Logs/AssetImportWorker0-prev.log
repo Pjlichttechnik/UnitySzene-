@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'de' Physical Memory: 16082 MB
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'de' Physical Memory: 32726 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/rabhi/OneDrive/Dokumente/PJ Lichttechnik/Unity/UnitySzene-/LED-Laufsteg
+D:/Git/UnitySzene-/LED-Laufsteg
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62093
-Successfully changed project path to: C:/Users/rabhi/OneDrive/Dokumente/PJ Lichttechnik/Unity/UnitySzene-/LED-Laufsteg
-C:/Users/rabhi/OneDrive/Dokumente/PJ Lichttechnik/Unity/UnitySzene-/LED-Laufsteg
+50040
+Successfully changed project path to: D:/Git/UnitySzene-/LED-Laufsteg
+D:/Git/UnitySzene-/LED-Laufsteg
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 299.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/rabhi/OneDrive/Dokumente/PJ Lichttechnik/Unity/UnitySzene-/LED-Laufsteg/Assets
+[Subsystems] Discovering subsystems at path D:/Git/UnitySzene-/LED-Laufsteg/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   
-    VRAM:     8041 MB
-    Driver:   30.0.100.9955
+    VRAM:     8079 MB
+    Driver:   30.0.14.9709
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006498 seconds.
+Registered in 0.001989 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 278.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.951 seconds
+- Completed reload, in  0.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1951ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (533ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1535ms)
-			LoadAssemblies (170ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (481ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (666ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (176ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (279ms)
-				BeforeProcessingInitializeOnLoad (30ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017168 seconds.
+Registered in 0.003518 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 373.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 80.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.105 seconds
+- Completed reload, in  1.350 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5108ms)
-		BeginReloadAssembly (443ms)
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (4449ms)
-			LoadAssemblies (311ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1245ms)
+			SetupTypeCache (336ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (260ms)
-			SetupLoadedEditorAssemblies (2232ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (563ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (373ms)
-				BeforeProcessingInitializeOnLoad (356ms)
-				ProcessInitializeOnLoadAttributes (1007ms)
-				ProcessInitializeOnLoadMethodAttributes (462ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4221 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.5 MB.
+Unloading 4220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.6 MB.
+System memory in use after: 195.9 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4670.
-Total: 10.638300 ms (FindLiveObjects: 0.464600 ms CreateObjectMapping: 0.312600 ms MarkObjects: 9.619700 ms  DeleteObjects: 0.238100 ms)
+Total: 3.471700 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.146800 ms MarkObjects: 2.956500 ms  DeleteObjects: 0.086200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -130,4 +130,171 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008244 seconds 
+  Import took 0.037259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.601736 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(a84a85d1d59a1c9409a21d66f5e7ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(a84a85d1d59a1c9409a21d66f5e7ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3bc15bda6827e186c2c0bfc9a270db') in 0.005510 seconds 
+  Import took 0.011914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.286522 seconds.
+  path: Assets/Textures/Cobblestone
+  artifactKey: Guid(d329e3bdbaa497143b427872b534bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone using Guid(d329e3bdbaa497143b427872b534bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a36c0aaad585d21e1a6157af15873e') in 0.007384 seconds 
+  Import took 0.067207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.651491 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures
+  artifactKey: Guid(5eaa15d27ea87fe49b9a89a2959b7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures using Guid(5eaa15d27ea87fe49b9a89a2959b7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e29d3e62037e5fc9b1db1e8e2c9d1ba') in 0.006164 seconds 
+  Import took 0.012329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.172228 seconds.
+  path: Assets/Textures/Cobblestone/cobble stone scene
+  artifactKey: Guid(48849e25474b2e440909b4909da120ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/cobble stone scene using Guid(48849e25474b2e440909b4909da120ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb297ca22117c6adf2c77823c26403fb') in 0.006575 seconds 
+  Import took 0.028869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.812520 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures/CobbleStone Bump Spec for ball.mat
+  artifactKey: Guid(f69acfcb2dec7bb43847fbc8f1116509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures/CobbleStone Bump Spec for ball.mat using Guid(f69acfcb2dec7bb43847fbc8f1116509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690f93ac553418dd23926bb7f1ff0ddb') in 0.591141 seconds 
+  Import took 0.599137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd
+  artifactKey: Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd using Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd9ae8a9410f055aa060d2e5181f603') in 0.016778 seconds 
+  Import took 0.022051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures/CobbleStone Bump Spec.mat
+  artifactKey: Guid(0f1d01c227dd15c489f52cb712c6b59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures/CobbleStone Bump Spec.mat using Guid(0f1d01c227dd15c489f52cb712c6b59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c49493aa232c7b1474383a3552a3082') in 0.021592 seconds 
+  Import took 0.031112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road normal.png
+  artifactKey: Guid(cc2e317dde6901a44bc9284e724174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road normal.png using Guid(cc2e317dde6901a44bc9284e724174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4016c5c86346852f3b5d88cb4615df') in 0.042479 seconds 
+  Import took 0.047908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.982723 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd
+  artifactKey: Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd using Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b19fd92e8c54b6e3dde9b29b6ff49f') in 0.009410 seconds 
+  Import took 0.015901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.345955 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd
+  artifactKey: Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd using Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4ac69788fbcee15c09b2c3a4a5e425') in 0.010278 seconds 
+  Import took 0.016644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.429034 seconds.
+  path: Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd
+  artifactKey: Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd using Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c70fa801d5de358e8270d29b3daa81b') in 0.010892 seconds 
+  Import took 0.023798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 277.846539 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/Bush_01_Normal.png
+  artifactKey: Guid(f9d8b252b0a372e409bd532d908b970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/Bush_01_Normal.png using Guid(f9d8b252b0a372e409bd532d908b970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0580c0abf2de1b961d39b0f79e2cd696') in 0.057369 seconds 
+  Import took 0.066650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteHoles_MAODS.png
+  artifactKey: Guid(3c37174c3fa9e7646b00e37ea0871adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteHoles_MAODS.png using Guid(3c37174c3fa9e7646b00e37ea0871adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c4d5c15eee6aea3122c6a458290725') in 0.026835 seconds 
+  Import took 0.033677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteHoles_DetailMap.png
+  artifactKey: Guid(e29d5dd2ec8d21644bfc76132a215c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteHoles_DetailMap.png using Guid(e29d5dd2ec8d21644bfc76132a215c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b73b257de5ece539c9c0febd62f74d') in 0.029192 seconds 
+  Import took 0.042936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteHoles_Albedo.png
+  artifactKey: Guid(2b99f0294fbead04c982891ea9dffe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteHoles_Albedo.png using Guid(2b99f0294fbead04c982891ea9dffe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f27e92cc8f2dd91ec39fcee14dc3af') in 0.042062 seconds 
+  Import took 0.048986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/SampleSceneAssets/Textures/VFX/ButterFlies_8x1.png
+  artifactKey: Guid(bd8ecf28fc2ab684fa1a57ee707e5214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/VFX/ButterFlies_8x1.png using Guid(bd8ecf28fc2ab684fa1a57ee707e5214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68496c7608eec8678c782078f9525dd3') in 0.021204 seconds 
+  Import took 0.028341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Albedo.png
+  artifactKey: Guid(218a2347bc3ab2f4a90790e60b49b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Albedo.png using Guid(218a2347bc3ab2f4a90790e60b49b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b966e1877496a7088e7d20b7e43a9f28') in 0.042116 seconds 
+  Import took 0.049233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteHoles_Normal.png
+  artifactKey: Guid(87d1598cf2939b74e8ddb3a1064828cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteHoles_Normal.png using Guid(87d1598cf2939b74e8ddb3a1064828cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437054d15347dc7615e8ac9c6b6fe751') in 0.042620 seconds 
+  Import took 0.049457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.080551 seconds.
+  path: Assets/Textures/Cobblestone/cobble stone scene/LightmapFar-0.exr
+  artifactKey: Guid(0580559007218b84196fac393f329ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/cobble stone scene/LightmapFar-0.exr using Guid(0580559007218b84196fac393f329ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20579ca5c6e847ddf4e79be456685c78') in 0.015158 seconds 
+  Import took 0.273089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Textures/Cobblestone/cobble stone scene/LightmapNear-0.exr
+  artifactKey: Guid(1bacf0524e8c42846866eef387245334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cobblestone/cobble stone scene/LightmapNear-0.exr using Guid(1bacf0524e8c42846866eef387245334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff8262f8df379b4e92e0e378946f2fd') in 0.075865 seconds 
+  Import took 0.081236 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
