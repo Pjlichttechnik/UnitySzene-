@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turnlight_LED8m : MonoBehaviour
+public class Turnlight_LED6mBreit : MonoBehaviour
 {
     public GameObject light0;
     public GameObject light1;
@@ -13,7 +13,7 @@ public class Turnlight_LED8m : MonoBehaviour
     // Use this for initialization
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && !on)
+        if (Input.GetKeyDown(KeyCode.T) && !on)
         {
             light0.SetActive(true);
             light1.SetActive(true);
@@ -22,7 +22,7 @@ public class Turnlight_LED8m : MonoBehaviour
             light4.SetActive(true);
             on = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Z) && on)
+        else if (Input.GetKeyDown(KeyCode.T) && on)
         {
             light0.SetActive(false);
             light1.SetActive(false);
